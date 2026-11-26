@@ -21,5 +21,15 @@
   <url-pattern>/Login</url-pattern>
   
  </servlet-mapping>
+ 
+ <servlet>
+ <servlet-name>Welcom</servlet-name>
+ <servlet-class>tom_application.Welcom</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+ <servlet-name>Welcom</servlet-name>
+ <url-pattern>/Welcom</url-pattern>
+ </servlet-mapping>
 
 </web-app>
